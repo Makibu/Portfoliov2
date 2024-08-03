@@ -24,7 +24,7 @@ export default function TechTile({title, small = false}){
         <motion.div
             initial={{backgroundColor: small ? '' : '#333639'}}
             whileHover={{
-                scale: small ? '' : 1.05,
+                scale: small ? 1 : 1.05,
                 backgroundColor: small ? '' : '#212121',
                 transition: {duration: 0.2, type: 'tween'}
             }}
