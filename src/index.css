@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.gradient {
+    background: rgb(159, 110, 207);
+    background: linear-gradient(90deg, rgba(159, 110, 207, 1) 0%, rgba(217, 48, 131, 1) 100%);
+    background-clip: text;
+}
+
+.text-outline {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+}
