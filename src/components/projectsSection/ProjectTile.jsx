@@ -5,7 +5,7 @@ export default function ProjectTile({title, webLink, githubLink, description, st
     return (
         <motion.div initial={{backgroundColor: '#333639'}}
                     whileHover={{backgroundColor: '#4d4d4d', transition: {type: 'tween'}, color: '#c1c1c1'}}
-                    className={'aspect-square m-3 rounded-xl p-3 flex flex-col text-gray-400 relative'}>
+                    className={'aspect-square rounded-xl p-3 flex flex-col text-gray-400 relative'}>
             <span className={'text-white font-bold text-xl'}>{title}</span>
             <div className={'flex flex-col leading-4 mb-5'}>
                 <a href={webLink} target={'_blank'} className={'underline'}>Go to site!</a>
