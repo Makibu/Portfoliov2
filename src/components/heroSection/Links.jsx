@@ -21,7 +21,7 @@ export default function Links(){
             webLink: 'bumaciej@gmail.com'
         },
         'Resume': {
-            webLink: 'https://drive.google.com/file/d/1U1FR3GgyG8ZxXnpdXL_rCNJUypR_i9GL/view?usp=sharing',
+            webLink: 'https://drive.google.com/file/d/1pF8fxfvuyEXDO5HOIDk87dsAa2aVb36j/view',
         }
     }
     
