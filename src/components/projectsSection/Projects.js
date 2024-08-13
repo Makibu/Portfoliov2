@@ -2,7 +2,7 @@ export const PROJECTS = {
     'Visua Media': {
         webLink: 'https://visua.media',
         description: 'A web page on behalf of Visua Media, contains information about all the company\'s activities and services.',
-        stack: ['React', 'Router', 'FramerMotion']
+        stack: ['React', 'Tailwind', 'FramerMotion', 'API']
     },
     'Memory Games': {
         webLink: 'https://visualmemorygames.netlify.app/',
