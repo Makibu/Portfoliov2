@@ -7,7 +7,7 @@ import TechsContainer from "./techsSection/TechsContainer.jsx";
 
 export default function PageContent(){
     return (
-        <div className={'px-12 w-full flex justify-center pb-32'}>
+        <div className={'px-6 w-full flex justify-center pb-32'}>
             <div className={'w-full max-w-[550px] pt-10 md:pt-20'}>
                 <Online/>
                 <Name/>
