@@ -26,7 +26,7 @@ export default function Name(){
                     ))}
                 </motion.div>
             </div>
-            <span className={'mt-4 gradient text-transparent'}>Front-End React Developer</span>
+            <span className={'mt-2 gradient text-transparent py-2'}>Software Engineer</span>
         </div>
     )
 }

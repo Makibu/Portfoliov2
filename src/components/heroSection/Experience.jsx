@@ -4,15 +4,15 @@ export default function Experience(){
             <div className={'flex flex-col gap-4 md:gap-1'}>
                 <span className={'text-lg text-gray-100 font-bold'}>Experience</span>
                 <div className={'flex flex-col md:flex-row'}>
-                    <span><b>Freelance</b> | Front-End React Developer |&nbsp;</span>
+                    <span><b>Freelance</b> | Software Engineer |&nbsp;</span>
                     <span>08.2023 - Present</span>
                 </div>
                 <div className={'flex flex-col md:flex-row'}>
-                    <span><b>Quay</b> | Web Content Specialist |&nbsp;</span>
+                    <span><b>Quay</b> | Software Engineer |&nbsp;</span>
                     <span>11.2022 - 12.2022 (Practice Work)</span>
                 </div>
                 <div className={'flex flex-col md:flex-row'}>
-                    <span><b>Quay</b> | IT Specialist |&nbsp;</span>
+                    <span><b>Quay</b> | IT Technician |&nbsp;</span>
                     <span>04.2022 - 05.2022 (Practice Work)</span>
                 </div>
             </div>
