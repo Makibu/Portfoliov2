@@ -1,25 +1,46 @@
-export const PROJECTS = {
-    'Visua Media': {
-        webLink: 'https://visua.media',
-        description: 'A web page on behalf of Visua Media, contains information about all the company\'s activities and services.',
-        stack: ['React', 'Tailwind', 'FramerMotion', 'API']
+import PokimoniImg from "../../assets/ProjectImages/pokimoni.png";
+import AutoSQLImg from "../../assets/ProjectImages/autosql.png";
+import StradeanImg from "../../assets/ProjectImages/stradean.png";
+import AlmexImg from "../../assets/ProjectImages/almex.png";
+import GamesImg from "../../assets/ProjectImages/games.png";
+
+export const PROJECTS = [
+    {
+        name: 'Pokimoni',
+        description: 'A browser game focused on opening Pokémon-style packs, earning coins, and collecting cards with varying rarity.',
+        img: PokimoniImg,
+        githubLink: 'https://github.com/Makibu/Pokimoni',
+        webLink: 'https://pokimoni.vercel.app/',
+        stack: ['Next', 'TypeScript', 'Tailwind', 'Supabase', "Vercel", "ShadCn"],
     },
-    'Memory Games': {
-        webLink: 'https://visualmemorygames.netlify.app/',
-        githubLink: 'https://github.com/Makibu/VisualMemoryGames',
-        description: 'A web app with memory games designed to boost cognitive skills, offering various difficulty levels to enhance recall, attention, and problem-solving abilities.',
+    {
+        name: 'AutoSQL',
+        description: 'A driving school website built for a private client in Poznań.',
+        img: AutoSQLImg,
+        webLink: 'https://autosql.pl/',
+        stack: ['Next', 'TypeScript', 'Tailwind', 'Supabase', "ShadCn"],
+    },
+    {
+        name: 'Stradean',
+        description: 'A frontend-only software company showcase created as a hobby project.',
+        img: StradeanImg,
+        githubLink: 'https://github.com/Makibu/stradean',
+        webLink: 'https://stradean.com/',
+        stack: ['Next', 'Tailwind', 'FramerMotion', "Vercel", "ShadCn"],
+    },
+    {
+        name: 'Almex',
+        description: 'A showcase landing page for a company specializing in garage doors and shutters.',
+        img: AlmexImg,
+        webLink: 'https://almex.net.pl/',
         stack: ['React', 'Tailwind', 'Router'],
     },
-    'Miniliga': {
-        webLink: 'https://miniliga.com.pl',
-        githubLink: '',
-        description: 'Site made on behalf of Miniliga Krakow, the site contains key information about the soccer league operating in Poland',
-        stack: ['JavaScript', 'Sass', 'CSS'],
-    },
-    'Currency Calculator': {
-        webLink: 'https://currencyratecalculator.netlify.app/',
-        githubLink: '',
-        description: 'A web app for real-time currency conversion with up-to-date rates, providing accurate information for transactions and other needs.',
-        stack: ['React', 'TypeScript', 'API'],
+    {
+        name: 'Visual Memory Games',
+        description: 'A collection of simple web-based memory and reaction games.',
+        img: GamesImg,
+        githubLink: 'https://github.com/Makibu/VisualMemoryGames',
+        webLink: 'https://visualmemorygames.netlify.app/',
+        stack: ['React', 'Tailwind', 'Router'],
     }
-}
+]

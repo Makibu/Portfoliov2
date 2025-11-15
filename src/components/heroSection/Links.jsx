@@ -34,7 +34,7 @@ export default function Links(){
                         <a key={platform} href={platform !== 'Mail' ? webLink : `mailto:${webLink}`}
                            className={'inline-block'} target={'_blank'}>
                             <motion.div initial={{backgroundColor: '#333639', color: 'white', scale: 1}}
-                                        whileHover={{backgroundColor: 'white', color: 'black', scale: 1.1}}
+                                        whileHover={{backgroundColor: 'white', color: 'black', scale: 1.05}}
                                         className={'px-6 py-2 justify-center items-center flex rounded-full gap-1'}
                                         onHoverStart={() => setHovered(platform)}
                                         onHoverEnd={() => setHovered(null)}

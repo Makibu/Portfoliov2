@@ -16,7 +16,7 @@ export default function PageContent(){
                 <ProjectsContainer/>
                 <TechsContainer/>
             </div>
-            <span className={'text-sm text-gray-300 absolute bottom-14'}>Maciej Budzich 2024</span>
+            <span className={'text-sm text-gray-300 absolute bottom-14'}>Maciej Budzich {(new Date()).getFullYear()} &copy;</span>
         </div>
     )
 }

@@ -8,7 +8,6 @@ export default function TechTile({title, small = false}){
     useEffect(() => {
         const loadComponent = async () => {
             try{
-                // Adjust the file extension to `.js` if `.jsx` causes issues
                 const {default: DynamicComponent} = await import(`../../assets/TechIcons/${title}.jsx`);
                 setComponent(() => DynamicComponent);
             }catch (error){
@@ -29,13 +28,13 @@ export default function TechTile({title, small = false}){
                 transition: {duration: 0.2, type: 'tween'}
             }}
             
-            className={`${small ? 'w-12 h-12' : `aspect-[4/3]`} text-white rounded-md relative flex justify-center items-center pb-3`}
+            className={`${small ? 'aspect-square bg-gray-700 p-2' : `aspect-[4/3] pb-3`} text-white rounded-md relative flex justify-center items-center`}
             onHoverStart={() => setHovered(true)}
             onHoverEnd={() => setHovered(false)}
         >
             {Component ? <Component txt={small ? true : hovered} size={small ? '20px' : '32px'}/> :
                 <span>Loading...</span>}
-            <span className={`absolute ${small ? 'text-[10px] bottom-1' : ' bottom-2'}`}>{title}</span>
+            {!small && <span className={`absolute bottom-2`}>{title}</span>}
         </motion.div>
     );
 }
